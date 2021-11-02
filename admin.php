@@ -3,8 +3,7 @@
               session_start();
               // if($_SESSION['username'] == ''){
               //   header("location:index.php");
-              // }
-              
+              // }              
             ?>
 
 <!DOCTYPE html>
@@ -12,7 +11,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Dashboard</title>
+  <title>Digilab</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -58,8 +57,13 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="#" class="brand-link">
-      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <h1>
+      <i class="fas fa fa-book-open brand-image img-circle elevation-3"></i>
+
+        </h1>
+    <!-- <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
       <span class="brand-text font-weight-light">DigitalLab</span>
+      
     </a>
 
     
@@ -68,7 +72,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="img/minilogo.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block"><?= $_SESSION['nama']; ?></a>
@@ -171,7 +175,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3><?= $jmlbuku; ?><sup style="font-size: 20px">%</sup></h3>
+                <h3><?= $jmlbuku; ?></h3>
 
                 <p>Jumlah Buku</p>
               </div>

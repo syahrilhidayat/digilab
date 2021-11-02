@@ -16,6 +16,11 @@
             header("location:admin.php");
         }else
         {
-            header("location:login.php");
+            echo '
+            <script>alert("Username atau Password Salah");
+            document.location.href="index.php";
+            </script>
+        ';
         }
     }
+ 

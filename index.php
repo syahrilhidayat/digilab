@@ -27,7 +27,7 @@
         </div>
       <form action="loginProses.php" method="post">
         <div class="input-group mb-3">
-          <input type="username" name="username" class="form-control" placeholder="Username">
+          <input type="username" name="username" class="form-control" placeholder="Username" required>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" name="password" class="form-control" placeholder="Password">
+          <input type="password" name="password" class="form-control" placeholder="Password" required>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
